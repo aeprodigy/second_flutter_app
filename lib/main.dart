@@ -10,7 +10,11 @@ void main()=> runApp(MaterialApp(
     ),
     body: const Center(child: Text('Flutter app')
     ),
-
+  floatingActionButton: FloatingActionButton(
+    onPressed: (){},
+    child: Text('Punch!'),
+    backgroundColor: Colors.lime,
+    ),
   ),
 ));
 
