@@ -6,7 +6,7 @@ void main()=> runApp(MaterialApp(
       title: Text('Flutter Lesson 100 Days'),
       centerTitle: true,
     ),
-    body: Text('Mike Mambwe'),
+    body: Center(child: Text('Flutter app')),
   ),
 ));
 
