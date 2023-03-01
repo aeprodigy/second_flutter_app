@@ -17,7 +17,7 @@ class Home extends StatelessWidget {
       centerTitle: true,
       backgroundColor: Colors.lime,
     ),
-    body: const Center(child: Image(image: NetworkImage('https://images.unsplash.com/photo-1501862700950-18382cd41497?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fHNwYWNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60'))
+    body: const Center(child: Image(image: AssetImage('assets/img1.jpg'))
     ),
   floatingActionButton: FloatingActionButton(
     onPressed: (){},
