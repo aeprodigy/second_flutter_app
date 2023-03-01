@@ -6,7 +6,12 @@ void main()=> runApp(MaterialApp(
       title: Text('Flutter Lesson 100 Days'),
       centerTitle: true,
     ),
-    body: Center(child: Text('Flutter app')),
+    body: Center(child: Text('Flutter app')
+    ),
+    floatingActionButton: FloatingActionButton(
+      child: Text('click'),
+    ),
+    ),
   ),
 ));
 
