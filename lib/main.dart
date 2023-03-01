@@ -2,7 +2,16 @@ import 'package:flutter/material.dart';
 
 void main()=> runApp(MaterialApp(
   
-  home: Scaffold(
+  home: Home(),
+));
+
+//ststeless Widget means that the widget can change with time.
+class Home extends StatelessWidget {
+
+
+  @override
+  Widget build(BuildContext context) {
+    return  Scaffold(
     appBar: AppBar(
       title: const Text('Flutter Lesson 1 of 100 Days'),
       centerTitle: true,
@@ -22,18 +31,9 @@ void main()=> runApp(MaterialApp(
     ),
   floatingActionButton: FloatingActionButton(
     onPressed: (){},
-    child: Text('Punch!'),
+    child: Text('Touch!'),
     backgroundColor: Colors.lime,
     ),
-  ),
-));
-
-//ststeless Widget means that the widget can change with time.
-class test extends StatelessWidget {
-
-
-  @override
-  Widget build(BuildContext context) {
-    return const Placeholder();
+  );
   }
 }
