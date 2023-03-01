@@ -8,7 +8,15 @@ void main()=> runApp(MaterialApp(
       centerTitle: true,
       backgroundColor: Colors.lime,
     ),
-    body: const Center(child: Text('Flutter app')
+    body: const Center(child: Text(
+      'Flutter Lessons',
+      style: TextStyle(
+        fontSize: 20.0,
+        fontWeight: FontWeight.bold,
+        letterSpacing: 2.0,
+        color: Colors.orange,
+      ),
+    )
     ),
   floatingActionButton: FloatingActionButton(
     onPressed: (){},
