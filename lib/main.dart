@@ -8,10 +8,7 @@ void main()=> runApp(MaterialApp(
     ),
     body: Center(child: Text('Flutter app')
     ),
-    floatingActionButton: FloatingActionButton(
-      child: Text('click'),
-    ),
     ),
   ),
-));
+);
 
